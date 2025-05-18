@@ -106,7 +106,7 @@ vim.g.loaded_netrwPlugin = 1
 vim.o.number = true
 -- You can also add relative line numbers, to help with jumping.
 --  Experiment for yourself to see if you like it!
-vim.opt.relativenumber = true
+vim.o.relativenumber = true
 
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.o.mouse = 'a'
@@ -171,12 +171,12 @@ vim.o.scrolloff = 10
 vim.o.confirm = true
 
 -- Tab options
-vim.opt.expandtab = true
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
+vim.o.expandtab = true
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
 
 -- Set max line width reference column
-vim.opt.colorcolumn = '79'
+vim.o.colorcolumn = '79'
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
